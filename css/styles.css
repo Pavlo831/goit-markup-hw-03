@@ -123,9 +123,18 @@ img {
 .header-cont-link:focus {
   color: #404bbf;
 }
+
 .hero {
-  background-color: #2e2f42;
+ 
 }
+
+.hero-container {
+background-color: #2e2f42;
+padding: 188px 0;
+padding-top: 188px;
+padding-bottom: 188px;
+}
+
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -144,11 +153,7 @@ img {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
-  border: none;
-  display: block;
-  min-width: 169px;
-  height: 56px;
-  border-radius: 4px;
+  
 }
 .hero-btn:hover,
 .hero-btn:focus {
