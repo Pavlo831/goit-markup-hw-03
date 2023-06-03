@@ -68,12 +68,15 @@ img {
   display: flex;
   margin-left: 76px;
   align-items: center;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .header-contakt {
   display: flex;
   flex-grow: 1;
   align-items: center;
+  gap: 40px;
 
   margin-right: 40px;
   margin-right: 0;
@@ -86,6 +89,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .header-logo span {
   font-family: "Raleway", sans-serif;
