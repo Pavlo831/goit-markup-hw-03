@@ -60,6 +60,7 @@ img {
   display: block;
 }
 
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -122,6 +123,9 @@ margin-left: auto;
   line-height: 1.5;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+    padding-bottom: 24px;
+ 
 }
 .header-cont-link {
   font-style: normal;a
