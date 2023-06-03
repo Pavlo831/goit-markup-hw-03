@@ -40,6 +40,7 @@ ul {
 .list {
   list-style: none;
 }
+/**----------------Header-----------------*/
 .header-cont {
   display: flex;
   flex-grow: 1;
@@ -57,11 +58,15 @@ ul {
 img {
   display: block;
 }
-/**----------------Header-----------------*/
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc
+}
+.header-container {
+display: flex;
+margin-left: auto;
 }
 
 .header-menu {
