@@ -46,6 +46,7 @@ ul {
   flex-grow: 1;
   font-style: normal;
   gap: 40px;
+  
 }
 .container {
   width: 100%;
@@ -67,6 +68,7 @@ img {
 .header-container {
 display: flex;
 margin-left: auto;
+
 }
 
 .header-menu {
@@ -85,6 +87,8 @@ margin-left: auto;
 
   margin-right: 40px;
   margin-left: 0;
+  padding: 24px 0;
+  
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -109,6 +113,7 @@ margin-left: auto;
 .header-navigat {
   display: flex;
   align-items: center;
+  
 }
 
 .header-menu-link {
@@ -119,7 +124,7 @@ margin-left: auto;
   letter-spacing: 0.02em;
 }
 .header-cont-link {
-  font-style: normal;
+  font-style: normal;a
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -135,7 +140,7 @@ margin-left: auto;
 }
 
 .hero {
- 
+
 }
 
 .hero-container {
@@ -155,6 +160,8 @@ padding-bottom: 188px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
+  
   
 }
 .hero-btn {
@@ -192,8 +199,16 @@ padding-bottom: 188px;
   background: #404bbf;
   color: #ffffff;
 }
+
+.title-list-item {
+margin-bottom: 8px;
+}
+
 .title-list {
+  
   display: flex;
+  gap: 24px;
+  padding: 120px 0;
 }
 .title-list-subtitle {
   background-color: #ffffff;
@@ -205,9 +220,11 @@ padding-bottom: 188px;
 }
 .item-doing {
 display: flex;
+gap: 24px;
 }
 .team {
   display: flex;
+  gap: 24px;
 }
 
 .item-team {
@@ -232,6 +249,7 @@ display: flex;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .footer {
   line-height: 1.5;
