@@ -26,6 +26,7 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
+
 :root {
   --title-color: #2e2f42;
   --accent-color:;
@@ -217,4 +218,7 @@ ul {
   line-height: 1, 50;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+.img{
+  display: block;
 }
