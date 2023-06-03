@@ -216,6 +216,7 @@ padding-bottom: 188px;
 .footer {
   line-height: 1.5;
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -225,6 +226,8 @@ padding-bottom: 188px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo span {
   font-family: "Raleway", sans-serif;
