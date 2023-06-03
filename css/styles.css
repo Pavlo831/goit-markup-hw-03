@@ -144,6 +144,11 @@ img {
   color: #ffffff;
   background: #4d5ae5;
   cursor: pointer;
+  border: none;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
