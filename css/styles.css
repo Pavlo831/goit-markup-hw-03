@@ -211,6 +211,7 @@ padding-bottom: 188px;
   }
 
 .title-list-item {
+  
 
 }
 
@@ -221,6 +222,7 @@ padding-bottom: 188px;
   padding: 120px 0;
   margin-bottom: 8px;
   
+  
 }
 .title-list-subtitle {
   background-color: #ffffff;
@@ -230,6 +232,7 @@ padding-bottom: 188px;
   letter-spacing: 0.02em;
   color: #2e2f42;
   width: calc((100% - 72px) / 4);
+  
 }
 .item-doing {
 display: flex;
@@ -252,6 +255,7 @@ gap: 24px;
   letter-spacing: 0.02em;
   color: #434455;
   margin-bottom: 8px;
+  text-align: center;
   
 }
 .fon {
@@ -270,9 +274,10 @@ gap: 24px;
 }
 .container-team {
   display: block;
-  margin: o auto;
+  margin: 0 auto;
   margin-bottom: 8px;
   padding: 120px 0;
+  padding: 32px 16px;
   
 }
 .footer {
