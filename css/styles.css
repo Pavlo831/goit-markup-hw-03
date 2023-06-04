@@ -124,7 +124,7 @@ margin-left: auto;
   color: #2e2f42;
   letter-spacing: 0.02em;
   padding-top: 24px;
-    padding-bottom: 24px;
+  padding-bottom: 24px;
  
 }
 .header-cont-link {
@@ -211,7 +211,7 @@ padding-bottom: 188px;
   }
 
 .title-list-item {
-margin-bottom: 8px;
+
 }
 
 .title-list {
@@ -219,6 +219,8 @@ margin-bottom: 8px;
   display: flex;
   gap: 24px;
   padding: 120px 0;
+  margin-bottom: 8px;
+  
 }
 .title-list-subtitle {
   background-color: #ffffff;
@@ -227,6 +229,7 @@ margin-bottom: 8px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  width: calc((100% - 72px) / 4);
 }
 .item-doing {
 display: flex;
@@ -247,6 +250,7 @@ gap: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 .fon {
   background-color: #ffffff;
