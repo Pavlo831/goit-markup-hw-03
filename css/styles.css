@@ -154,6 +154,9 @@ gap: 80px;
 .visually-hidden {
 
 }
+.hero {
+  padding: 188px 0;
+}
 
 .hero-container {
 background-color: #2e2f42;
@@ -219,7 +222,7 @@ padding-bottom: 188px;
   }
   
   .Strategy {
-    padding: 188px 0;
+  padding: 120px 0;
   } 
 
 .title-list-item {
