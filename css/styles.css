@@ -323,9 +323,35 @@ gap: 24px;
   margin-bottom: 8px;
   padding: 120px 0;
   padding: 32px 16px;
-  
-  
 }
+
+
+  .list-btn {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-bottom: 72px;
+    }
+  
+    .portfolio-img {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 48px;
+    }
+    .portfolio {
+      padding-top: 96px;
+      padding-bottom: 120px;
+    }
+    .portfolio-link {
+      padding: 32px 16px;
+      border: 1px solid #e7e9fc;
+      border-top: none;
+      margin-bottom: 8px;
+    }
+  
+
+
 /**--------------------------footer-------------*/
 .footer {
   line-height: 1.5;
@@ -359,15 +385,4 @@ gap: 24px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.list-btn {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin-bottom: 72px;
-}
-.portfolio-img {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
+
