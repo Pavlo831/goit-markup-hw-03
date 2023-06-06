@@ -15,6 +15,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
+  margin: 0;
 }
 
 a {
@@ -25,7 +26,7 @@ ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
+  
 }
 
 img {
@@ -50,6 +51,7 @@ img {
   flex-grow: 1;
   font-style: normal;
   gap: 40px;
+  margin-left: auto;
   
   
 }
@@ -65,37 +67,30 @@ img {
 
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc
 }
+
 .header-container {
 display: flex;
 margin-left: auto;
-gap: 80px;
+
 
 
 }
 
 .header-menu {
   display: flex;
-  margin-left: 76px;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
-  
-  
+    
 }
 
 .header-contakt {
   display: flex;
   align-items: center;
   gap: 40px;
-
-  margin-right: 40px;
   margin-left: 0;
-  padding: 24px 0;
-  
+    
   
 }
 .header-logo {
@@ -116,8 +111,8 @@ gap: 80px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
-  margin-right: 76px;
-}
+  }
+
 .header-navigat {
   display: flex;
   align-items: center;
@@ -132,6 +127,7 @@ gap: 80px;
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
  
 }
 .header-cont-link {
@@ -156,15 +152,9 @@ gap: 80px;
 
 .hero {
   padding: 188px 0;
+  background-color: #2e2f42;
 }
 
-.hero-container {
-background-color: #2e2f42;
-padding: 188px 0 188px;
-padding-top: 188px;
-padding-bottom: 188px;
-
-}
 
 .hero-title {
   font-weight: 700;
@@ -260,8 +250,7 @@ width: calc((100% - 72px) / 4);
   
   display: flex;
   gap: 24px;
-  padding: 120px 0;
-  
+    
   
 }
 .title-list-subtitle {
@@ -289,8 +278,7 @@ gap: 24px;
 .team {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
-  
+    
   
 }
 
@@ -355,7 +343,6 @@ gap: 24px;
 .container-team {
   display: block; 
   margin: 0 auto;
-  margin-bottom: 8px;
   padding: 120px 0;
   padding: 32px 16px;
 }
@@ -382,8 +369,8 @@ gap: 24px;
       padding: 32px 16px;
       border: 1px solid #e7e9fc;
       border-top: none;
-      margin-bottom: 8px;
     }
+
     .list-portfol {
       width: calc((100% - 48px) / 3);
     }
@@ -405,8 +392,8 @@ gap: 24px;
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  margin-bottom: 16px;
-}
+  }
+
 .footer-logo span {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -419,8 +406,11 @@ gap: 24px;
 .footer-text {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1, 50;
+  line-height: 1.0;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  height: 72px;
+
 }
 
