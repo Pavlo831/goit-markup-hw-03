@@ -261,6 +261,7 @@ width: calc((100% - 72px) / 4);
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
   
  
   
@@ -307,6 +308,8 @@ gap: 24px;
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
+    : calc((100% - 72px) / 4)
+    
   }
   .title-text-team {
     font-size: 16px;
@@ -392,6 +395,7 @@ gap: 24px;
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
+  margin-bottom: 16px;
   }
 
 .footer-logo span {
