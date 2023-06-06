@@ -26,6 +26,7 @@ ul {
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding-left: 0;
   
 }
 
@@ -250,6 +251,7 @@ width: calc((100% - 72px) / 4);
   
   display: flex;
   gap: 24px;
+  
     
   
 }
@@ -262,11 +264,20 @@ width: calc((100% - 72px) / 4);
   color: #2e2f42;
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
-  
  
-  
-  
 }
+.title-list-portfolio {
+background-color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  width: calc((100% - 48px) / 3);
+
+}
+
 .item-doing {
 display: flex;
 gap: 24px;
@@ -308,7 +319,8 @@ gap: 24px;
     color: #2e2f42;
     margin-bottom: 8px;
     text-align: center;
-    : calc((100% - 72px) / 4)
+    стиль width: calc((100% - 72px) / 4);
+    
     
   }
   .title-text-team {
@@ -374,9 +386,7 @@ gap: 24px;
       border-top: none;
     }
 
-    .list-portfol {
-      width: calc((100% - 48px) / 3);
-    }
+    
   
 
 
