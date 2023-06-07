@@ -49,7 +49,6 @@ img {
 /**----------------Header-----------------*/
 .header-cont {
   display: flex;
-  flex-grow: 1;
   font-style: normal;
   gap: 40px;
   margin-left: auto;
